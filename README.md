@@ -8,7 +8,7 @@ El sistema está diseñado bajo una **arquitectura en capas**, separando clarame
 
 ---
 
-## 🧱 Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 El sistema está conformado por los siguientes componentes principales:
 
@@ -33,7 +33,7 @@ La siguiente arquitectura describe el flujo de comunicación entre los distintos
 
 ---
 
-## ⚙️ Backend – API REST
+## Backend – API REST
 
 ### Punto de Entrada
 
@@ -56,7 +56,7 @@ Cada controlador se encarga de procesar las solicitudes, validar datos y comunic
 
 ---
 
-## 🗄️ Capa de Datos
+## Capa de Datos
 
 La interacción con la base de datos se maneja mediante una capa de abstracción compuesta por:
 
@@ -89,7 +89,7 @@ Esta separación permite mantener el código más limpio, reutilizable y fácil 
 
 ---
 
-## 📱 Aplicación Móvil
+## Aplicación Móvil
 
 * Desarrollada en **Java** usando **Android Studio**.
 * Consume la API REST mediante peticiones HTTP.
@@ -97,7 +97,7 @@ Esta separación permite mantener el código más limpio, reutilizable y fácil 
 
 ---
 
-## 🌐 Página Web
+## Página Web
 
 * Desarrollada en **PHP**.
 * Consume la API REST para todas las operaciones.
@@ -105,17 +105,7 @@ Esta separación permite mantener el código más limpio, reutilizable y fácil 
 
 ---
 
-## ✅ Ventajas de la Arquitectura
-
-* Separación clara de responsabilidades.
-* Reutilización de la lógica de negocio.
-* Escalabilidad para nuevos clientes (por ejemplo, otra app).
-* Mantenimiento más sencillo.
-* Comunicación centralizada mediante API.
-
----
-
-## 📌 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * PHP
 * API REST
@@ -123,9 +113,3 @@ Esta separación permite mantener el código más limpio, reutilizable y fácil 
 * Android Studio
 * MySQL
 * Arquitectura en capas
-
----
-
-## 📄 Notas Finales
-
-Este proyecto sigue buenas prácticas de desarrollo, permitiendo una evolución ordenada del sistema y facilitando su comprensión tanto a nivel académico como profesional.
