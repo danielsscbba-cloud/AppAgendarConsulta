@@ -81,7 +81,7 @@ Esta separación permite mantener el código más limpio, reutilizable y fácil 
 
 ---
 
-## 🛢️ Base de Datos
+## Base de Datos
 
 * **Motor**: MySQL
 * Centraliza toda la información del sistema.
