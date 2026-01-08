@@ -1,0 +1,12 @@
+# Activar el motor de reescritura
+RewriteEngine On
+
+# Establecer la carpeta base (ajusta si tu proyecto estÃ¡ en subcarpeta)
+RewriteBase /proyectofinalMW/
+
+# Si el archivo o directorio existe, no hacer nada
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir todo a index.php
+RewriteRule ^ index.php [L]
