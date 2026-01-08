@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViviendoEnResiliencia</string>
+        <string-array name="tipos_sesion_array">
+            <item>Individual</item>
+            <item>Familiar</item>
+            <item>De pareja</item>
+            <item>De fertilidad</item>
+            <item>Infantil</item>
+        </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/et_nombre_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_username_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_correo_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_telefono_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/et_password_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_finalizar_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
+        android:backgroundTint="#007bff"
+        android:textColor="@android:color/white"
+        android:paddingVertical="12dp" />
+
+</LinearLayout>
