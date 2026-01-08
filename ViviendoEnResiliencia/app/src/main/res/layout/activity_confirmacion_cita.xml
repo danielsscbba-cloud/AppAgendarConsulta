@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Cita"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"/>
+
+    <!-- Tarjeta de Resumen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/rounded_card_background"
+        android:elevation="4dp"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalles de la Cita"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_tipo_sesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Tipo de Sesión: Individual"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Fecha: Lunes 14 de Octubre"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Hora: 09:00 AM"
+            android:layout_marginBottom="8dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirmar_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Cita"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:backgroundTint="#13a4ec"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver y Modificar"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

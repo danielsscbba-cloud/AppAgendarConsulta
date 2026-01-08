@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_inicio"
+        android:title="Inicio"
+        android:icon="@android:drawable/ic_menu_today" />
+    <item
+        android:id="@+id/nav_citas"
+        android:title="Citas"
+        android:icon="@android:drawable/ic_menu_month" />
+    <item
+        android:id="@+id/nav_notificaciones"
+        android:title="Notificaciones"
+        android:icon="@android:drawable/ic_dialog_alert" />
+<!--    <item
+        android:id="@+id/nav_perfil"
+        android:title="Perfil"
+        android:icon="@android:drawable/ic_menu_myplaces" />-->
+</menu>
